@@ -1,0 +1,46 @@
+body {
+    font-size: 15pt;
+}
+@font-face {
+  font-family: rafi;
+  src: url(font1.ttf);
+}
+@keyframes oo{
+  from{
+    transform: scale(1)
+  }
+  to{
+    transform: scale(1.5)
+  }
+}
+.div1{
+  width: 200px;
+  height: 200px;
+  background: #FFFFFF;
+  margin-left:80px;
+  margin-top:130px;
+}
+.img{
+  width: 150px;
+  height: 150px;
+  margin-left: 25px;
+  margin-top: 25px;
+  animation-name: oo;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+}
+.say{
+  margin-top: 500px;
+  font-family: rafi;
+  color: black;
+  margin-left: 60px;
+}
+.name{
+  margin-top:160px;
+  font-family: rafi;
+  color: black;
+  font-size: 10px;
+  margin-left: 160px;
+}
